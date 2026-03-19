@@ -139,7 +139,7 @@ Production-customized Stable Diffusion interface. Tailored for professional crea
 
 **Certifications:** CCNA  |  MCSE  |  CompTIA A+  |  CompTIA N+  |  CEH (Certified Ethical Hacker)
 
-**Education:** University of Greenwich — Hons Business Computing  |  University of Sunderland — Advanced Diploma IT
+**Education:** Ph.D. Business Computer Science, University of Greenwich  |  Hons Business Computing, University of Greenwich  |  Advanced Diploma IT, University of Sunderland
 
 ---
 
@@ -147,7 +147,8 @@ Production-customized Stable Diffusion interface. Tailored for professional crea
 
 | Company | Role | Domain | Since |
 |---|---|---|---|
-| **Coeus Digital Media LLC** | Founder & CTO | AI Systems, Enterprise Software | 2020 |
+| **KnowAI** | Co-Founder, CFO & CTO | AI-Powered Enterprise Software | 2024 |
+| **Coeus Digital Media LLC** | Founder & CTO | AI Systems, Digital Media, VFX | 2020 |
 | **Graymatter International Inc** | Founder & MD | Digital Strategy, Corporate Clients | 2018 |
 | **GraymatterOnline LLP** | Founder & CEO | India's first AI + Web3 integrated agency | 2015 |
 
