@@ -1,12 +1,14 @@
-<p align="center">
-  <img src="./assets/header.svg" alt="Darshankumar Joshi" width="100%">
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://darshj.me"><img src="https://img.shields.io/badge/darshj.me-e6edf3?style=flat-square" /></a>
-  <a href="https://twitter.com/thedarshanjoshi"><img src="https://img.shields.io/badge/@thedarshanjoshi-e6edf3?style=flat-square&logo=x&logoColor=000" /></a>
-  <a href="https://linkedin.com/in/thedarshanjoshi"><img src="https://img.shields.io/badge/linkedin-e6edf3?style=flat-square&logo=linkedin&logoColor=0A66C2" /></a>
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=200&section=header&text=Darshankumar%20Joshi&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Agentic%20AI%20%C2%B7%20Rust%20Systems%20%C2%B7%20Web3%20%C2%B7%20Entrepreneur&descAlignY=58&descSize=18&descColor=8b949e" width="100%" />
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=700&lines=Building+the+world's+most+complete+agent+runtime+in+Rust.;Founder+%C2%B7+CTO+%C2%B7+CFO.+Three+companies.+Three+continents.;One+binary.+104+skills.+40+channels.+188+models.)](https://git.io/typing-svg)
+
+<a href="https://darshj.me"><img src="https://img.shields.io/badge/darshj.me-e6edf3?style=flat-square" /></a>
+<a href="https://twitter.com/thedarshanjoshi"><img src="https://img.shields.io/badge/@thedarshanjoshi-e6edf3?style=flat-square&logo=x&logoColor=000" /></a>
+<a href="https://linkedin.com/in/thedarshanjoshi"><img src="https://img.shields.io/badge/linkedin-e6edf3?style=flat-square&logo=linkedin&logoColor=0A66C2" /></a>
+
+</div>
 
 ---
 
@@ -78,3 +80,5 @@ Ph.D. Business CS · Hons Business Computing (Greenwich) · Advanced Diploma IT 
 ---
 
 <p align="center"><sub>India · Dubai · USA</sub></p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:1a1a2e,100:0d1117&height=120&section=footer" width="100%" />
