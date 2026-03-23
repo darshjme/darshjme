@@ -1,84 +1,55 @@
-<div align="center">
+# Darshankumar Joshi
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=200&section=header&text=Darshankumar%20Joshi&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Agentic%20AI%20%C2%B7%20Rust%20Systems%20%C2%B7%20Web3%20%C2%B7%20Entrepreneur&descAlignY=58&descSize=18&descColor=8b949e" width="100%" />
+Building production-grade tooling for LLM agents.
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=700&lines=Building+the+world's+most+complete+agent+runtime+in+Rust.;Founder+%C2%B7+CTO+%C2%B7+CFO.+Three+companies.+Three+continents.;One+binary.+104+skills.+40+channels.+188+models.)](https://git.io/typing-svg)
-
-<a href="https://darshj.me"><img src="https://img.shields.io/badge/darshj.me-e6edf3?style=flat-square" /></a>
-<a href="https://twitter.com/thedarshanjoshi"><img src="https://img.shields.io/badge/@thedarshanjoshi-e6edf3?style=flat-square&logo=x&logoColor=000" /></a>
-<a href="https://linkedin.com/in/thedarshanjoshi"><img src="https://img.shields.io/badge/linkedin-e6edf3?style=flat-square&logo=linkedin&logoColor=0A66C2" /></a>
-
-</div>
+![GitHub followers](https://img.shields.io/github/followers/darshjme?style=flat-square&color=58a6ff) ![GitHub stars](https://img.shields.io/github/stars/darshjme?style=flat-square&color=f78166)
 
 ---
 
-I build autonomous systems in Rust and ship products across AI, crypto, and enterprise. Founded my first company in 2015. Currently running three — Coeus Digital Media, Graymatter International, and KnowAI.
+## Production Agent Toolkit
 
-Before all this, I did VFX for Aquaman, The Invisible Man, and The Last of Us Part II. Made India's first NFT-funded film. Studied at Greenwich and Sunderland. Hold a CCNA, MCSE, and CEH.
+A suite of four composable libraries for building reliable LLM agent systems.
 
-Most of my time now goes into **Mohini** — an agent OS written from scratch in Rust. 14 crates, 104 skills, 40 channels, 188 models. One binary.
+```
+┌─────────────────────────────────────────────────────────────┐
+│                   production-agent-toolkit                   │
+│                                                             │
+│  ┌───────────┐    ┌──────────────────┐    ┌─────────────┐  │
+│  │ llm-router│───▶│react-guard-patt..│───▶│agent-memory │  │
+│  │           │    │                  │    │             │  │
+│  │  Route    │    │  Guard during    │    │  Remember   │  │
+│  │  first    │    │  execution       │    │  always     │  │
+│  └───────────┘    └──────────────────┘    └──────┬──────┘  │
+│                                                   │         │
+│                                          ┌────────▼──────┐  │
+│                                          │  agent-evals  │  │
+│                                          │               │  │
+│                                          │  Evaluate     │  │
+│                                          │  after        │  │
+│                                          └───────────────┘  │
+└─────────────────────────────────────────────────────────────┘
 
----
+Route first. Guard during. Remember always. Evaluate after.
+```
 
-<p align="center">
-  <img src="./assets/projects.svg" alt="Projects" width="100%">
-</p>
+| Library | What it does | Tests |
+|---------|-------------|-------|
+| [agent-evals](https://github.com/darshjme/agent-evals) | 3D evaluation framework for LLM agent outputs | 45 |
+| [react-guard-patterns](https://github.com/darshjme/react-guard-patterns) | Stop-condition guards for agentic loops | 14 |
+| [llm-router](https://github.com/darshjme/llm-router) | Semantic task routing across LLM providers | 10 |
+| [agent-memory](https://github.com/darshjme/agent-memory) | Short-term + episodic memory for agents | 13 |
 
-**[Mohini](https://github.com/darshjme/mohini)** — Full agentic runtime. Persistent memory, WASM-sandboxed skills, shadow spawning, self-healing orchestration. The whole stack in Rust.
-
-**[KnowAI ERP](https://github.com/darshjme/knowai-erp)** — AI-native enterprise platform. React 19, Next.js 15, PostgreSQL. Built for real operations, not demos.
-
-**[MyCryptoCoin](https://github.com/darshjme/mycryptocoin)** — Multi-chain crypto payment gateway. One API, every chain. TypeScript.
-
-**[WhatsApp 2FA](https://github.com/darshjme/whatsapp-2fa)** — Self-hosted OTP/2FA over WhatsApp. REST API, zero third-party dependency.
-
----
-
-| Company | Role | Since |
-|---|---|---|
-| **KnowAI** | Co-Founder, CFO & CTO | 2024 |
-| **Coeus Digital Media LLC** | Founder & CTO | 2020 |
-| **Graymatter International Inc** | Founder & MD | 2018 |
-| **GraymatterOnline LLP** | Founder & CEO | 2015 |
-
----
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Rust-000?style=flat-square&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=000" />
-  <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" />
-</p>
-
-Ph.D. Business CS · Hons Business Computing (Greenwich) · Advanced Diploma IT (Sunderland) · CCNA · MCSE · CEH
+**82 tests total** across the toolkit. → [production-agent-toolkit](https://github.com/darshjme/production-agent-toolkit)
 
 ---
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Business%20Standard-1A1A2E?style=flat-square" />
-  <img src="https://img.shields.io/badge/TechBullion-0066CC?style=flat-square" />
-  <img src="https://img.shields.io/badge/Film%20Daily-222?style=flat-square" />
-  <img src="https://img.shields.io/badge/Amazon%20Prime%20Video-00A8E0?style=flat-square&logo=primevideo&logoColor=white" />
-</p>
+## Other Projects
+
+- **[brahmand](https://github.com/darshjme/brahmand)** — Universal LLM terminal interface
+- **[samast](https://github.com/darshjme/samast)** — LLM integration framework
 
 ---
 
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=darshjme&show_icons=true&bg_color=0d1117&title_color=58a6ff&text_color=e6edf3&icon_color=f78166&border_color=30363d&count_private=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=darshjme&layout=compact&bg_color=0d1117&title_color=58a6ff&text_color=e6edf3&border_color=30363d&langs_count=8" />
-</p>
+## Find me
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=darshjme&theme=github-dark-blue&border=30363d&stroke=30363d&ring=58a6ff&fire=f78166&currStreakLabel=58a6ff&background=0d1117" />
-</p>
-
----
-
-<p align="center"><sub>India · Dubai · USA</sub></p>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:1a1a2e,100:0d1117&height=120&section=footer" width="100%" />
+[@thedarshanjoshi](https://twitter.com/thedarshanjoshi) on X
