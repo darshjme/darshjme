@@ -22,9 +22,9 @@ Most of my time now goes into **Mohini** — an agent OS written from scratch in
 
 ## Production Agent Infrastructure
 
-[![Arsenal](https://img.shields.io/badge/Arsenal-14%20libs%20534%20tests-blue)](https://github.com/darshjme/arsenal)
+[![Arsenal](https://img.shields.io/badge/Arsenal-20%20libs%20808%20tests-blue)](https://github.com/darshjme/arsenal)
 
-The complete production agent pipeline — 14 zero-dependency Python libraries: [arsenal →](https://github.com/darshjme/arsenal)
+The complete production agent pipeline — 20 zero-dependency Python libraries: [arsenal →](https://github.com/darshjme/arsenal)
 
 | Library | Description |
 |---|---|
@@ -41,6 +41,12 @@ The complete production agent pipeline — 14 zero-dependency Python libraries: 
 | [**agent-state**](https://github.com/darshjme/agent-state) | Lightweight agent state machine with transition guards |
 | [**agent-schema**](https://github.com/darshjme/agent-schema) | Schema validation for structured LLM outputs |
 | [**agent-pipeline**](https://github.com/darshjme/agent-pipeline) | Composable pipeline orchestrator: Route→Budget→Guard→Remember→Compress→Observe→Evaluate→Validate→Retry→State→Schema |
+| [**agent-cache**](https://github.com/darshjme/agent-cache) | Semantic and exact caching for LLM calls — cut costs by catching duplicate and similar prompts |
+| [**agent-config**](https://github.com/darshjme/agent-config) | Secrets, env config, hot-reload — zero credential leaks with auto-redacting SecretStr |
+| [**agent-events**](https://github.com/darshjme/agent-events) | Event bus, pub/sub, and history replay for multi-agent coordination |
+| [**agent-health**](https://github.com/darshjme/agent-health) | Health checks and liveness monitoring — HTTP, disk, memory, latency probes in parallel |
+| [**agent-rate-limiter**](https://github.com/darshjme/agent-rate-limiter) | Proactive rate limiting for LLM API calls — prevent 429 errors before they happen |
+| [**agent-circuit-breaker**](https://github.com/darshjme/agent-circuit-breaker) | Circuit breaker pattern — CLOSED/OPEN/HALF_OPEN state machine, FallbackBreaker for cascade failure prevention |
 
 ---
 
