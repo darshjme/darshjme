@@ -29,7 +29,11 @@ Most of my time now goes into **Mohini** — an autonomous agent OS I'm writing 
 
 ## The Arsenal — Six Ways Agents Fail in Production
 
+<<<<<<< HEAD
 Six libraries. Zero external dependencies. Built from first principles.
+=======
+[![Arsenal](https://img.shields.io/badge/Arsenal-56%20libs%202474%20tests-blue)](https://github.com/darshjme/arsenal) [![55 Libraries](https://img.shields.io/badge/🎯_2474_tests-56_lib_milestone-gold)](https://github.com/darshjme/arsenal)
+>>>>>>> cdc8e6c (docs: 55 libs, 2432 tests)
 
 | Library | What it solves | Tests |
 |---------|---------------|-------|
