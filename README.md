@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=200&section=header&text=Darshankumar%20Joshi&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Agentic%20AI%20%C2%B7%20Rust%20Systems%20%C2%B7%20Web3%20%C2%B7%20Entrepreneur&descAlignY=58&descSize=18&descColor=8b949e" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a0a0a,100:1a0000&height=200&section=header&text=Darshankumar%20Joshi&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=कर्मण्येवाधिकारस्ते%20मा%20फलेषु%20कदाचन&descAlignY=58&descSize=16&descColor=cc9933" width="100%" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=700&lines=Building+the+world's+most+complete+agent+runtime+in+Rust.;Founder+%C2%B7+CTO+%C2%B7+CFO.+Three+companies.+Three+continents.;One+binary.+104+skills.+40+channels.+188+models.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=800&color=CC9933&center=true&vCenter=true&width=750&lines=Vipra+who+writes+code.+Brahmin+who+builds+systems.;Gujarat+%E2%86%92+the+world.+Dharma+%E2%86%92+execution.;Karman%CC%A3y-ev%C4%81dhik%C4%81ras+te+m%C4%81+phales%CC%A3u+kad%C4%81cana.)](https://git.io/typing-svg)
 
-<a href="https://darshj.me"><img src="https://img.shields.io/badge/darshj.me-e6edf3?style=flat-square" /></a>
+<a href="https://darshj.me"><img src="https://img.shields.io/badge/darshj.me-cc9933?style=flat-square&logoColor=000" /></a>
 <a href="https://twitter.com/thedarshanjoshi"><img src="https://img.shields.io/badge/@thedarshanjoshi-e6edf3?style=flat-square&logo=x&logoColor=000" /></a>
 <a href="https://linkedin.com/in/thedarshanjoshi"><img src="https://img.shields.io/badge/linkedin-e6edf3?style=flat-square&logo=linkedin&logoColor=0A66C2" /></a>
 
@@ -12,73 +12,35 @@
 
 ---
 
-I build autonomous systems in Rust and ship products across AI, crypto, and enterprise. Founded my first company in 2015. Currently running three — Coeus Digital Media, Graymatter International, and KnowAI.
+> *"Śreyān sva-dharmo viguṇaḥ para-dharmāt su-anuṣṭhitāt"*
+> Better to walk your own path imperfectly than another's path perfectly. — Bhagavad Gita 3.35
 
-Before all this, I did VFX for Aquaman, The Invisible Man, and The Last of Us Part II. Made India's first NFT-funded film. Studied at Greenwich and Sunderland. Hold a CCNA, MCSE, and CEH.
+I am a Brahmin from Gujarat. My ancestors built temples. I build systems.
 
-Most of my time now goes into **Mohini** — an agent OS written from scratch in Rust. 14 crates, 104 skills, 40 channels, 188 models. One binary.
+The Sompura Brahmins of my land carved stone into structures that outlasted empires. The tools changed — chisel became compiler, sandstone became silicon — but the intent is the same: **build something permanent. Build something that serves.**
 
----
+Vyasa compiled the Vedas so knowledge wouldn't scatter. I write open-source so tools don't stay locked. Same dharma. Different medium.
 
-## Production Agent Infrastructure
+Founded my first company in 2015. Currently running three across AI, media, and enterprise — Coeus Digital Media, Graymatter International, and KnowAI. Before this: VFX for Aquaman, The Invisible Man, The Last of Us Part II. India's first NFT-funded film. Ph.D. Business CS. CCNA. MCSE. CEH.
 
-[![Arsenal](https://img.shields.io/badge/Arsenal-54%20libs%202398%20tests-blue)](https://github.com/darshjme/arsenal) [![53 Libraries](https://img.shields.io/badge/🎯_2398_tests-54_lib_milestone-gold)](https://github.com/darshjme/arsenal)
-
-The complete production agent pipeline — 37 zero-dependency Python libraries: [arsenal →](https://github.com/darshjme/arsenal)
-
-| Library | Description |
-|---|---|
-| [**agent-evals**](https://github.com/darshjme/agent-evals) | Evaluation framework for LLM agent outputs and behaviors |
-| [**react-guard-patterns**](https://github.com/darshjme/react-guard-patterns) | ReAct loop guard patterns to prevent runaway agent execution |
-| [**llm-router**](https://github.com/darshjme/llm-router) | Intelligent routing across LLM providers based on cost and capability |
-| [**agent-memory**](https://github.com/darshjme/agent-memory) | Persistent and working memory primitives for stateful agents |
-| [**agent-guardrails**](https://github.com/darshjme/agent-guardrails) | Input/output safety guardrails for production agent pipelines |
-| [**agent-observability**](https://github.com/darshjme/agent-observability) | Structured tracing, logging, and metrics for agent systems |
-| [**agent-budget**](https://github.com/darshjme/agent-budget) | Token and cost budgeting with hard limits and alerts |
-| [**agent-context**](https://github.com/darshjme/agent-context) | Context window management and intelligent compression |
-| [**agent-tools**](https://github.com/darshjme/agent-tools) | Tool registry, validation, and execution harness |
-| [**agent-retry**](https://github.com/darshjme/agent-retry) | Retry logic with exponential backoff and circuit breakers |
-| [**agent-state**](https://github.com/darshjme/agent-state) | Lightweight agent state machine with transition guards |
-| [**agent-schema**](https://github.com/darshjme/agent-schema) | Schema validation for structured LLM outputs |
-| [**agent-pipeline**](https://github.com/darshjme/agent-pipeline) | Composable pipeline orchestrator: Route→Budget→Guard→Remember→Compress→Observe→Evaluate→Validate→Retry→State→Schema |
-| [**agent-cache**](https://github.com/darshjme/agent-cache) | Semantic and exact caching for LLM calls — cut costs by catching duplicate and similar prompts |
-| [**agent-config**](https://github.com/darshjme/agent-config) | Secrets, env config, hot-reload — zero credential leaks with auto-redacting SecretStr |
-| [**agent-events**](https://github.com/darshjme/agent-events) | Event bus, pub/sub, and history replay for multi-agent coordination |
-| [**agent-health**](https://github.com/darshjme/agent-health) | Health checks and liveness monitoring — HTTP, disk, memory, latency probes in parallel |
-| [**agent-rate-limiter**](https://github.com/darshjme/agent-rate-limiter) | Proactive rate limiting for LLM API calls — prevent 429 errors before they happen |
-| [**agent-circuit-breaker**](https://github.com/darshjme/agent-circuit-breaker) | Circuit breaker pattern — CLOSED/OPEN/HALF_OPEN state machine, FallbackBreaker for cascade failure prevention |
-| [**agent-validator**](https://github.com/darshjme/agent-validator) | Input validation, prompt injection detection, PII scanning — composable rule chains, zero dependencies |
-| [**agent-logger**](https://github.com/darshjme/agent-logger) | Structured JSON logging, correlation IDs, auto-redaction, log sampling — trace every request end-to-end |
-| [**agent-timer**](https://github.com/darshjme/agent-timer) | SLA enforcement, p50/p95/p99 tracking, @timed decorator, multi-step profiler — zero dependencies |
-| [**agent-queue**](https://github.com/darshjme/agent-queue) | Priority task queue, deduplication, worker pool, backpressure — zero dependencies |
-| [**agent-fallback**](https://github.com/darshjme/agent-fallback) | FallbackChain, ConditionalFallback, RetryThenFallback, @fallback decorator — zero dependencies |
-| [**agent-semaphore**](https://github.com/darshjme/agent-semaphore) | Concurrency limiting, resource pool, throttled executor, @limit_concurrent — zero dependencies |
-| [**agent-dependency**](https://github.com/darshjme/agent-dependency) | DI container, @inject decorator, scoped containers, ServiceLocator — zero dependencies |
-| [**agent-context-window**](https://github.com/darshjme/agent-context-window) | Token counting, sliding window, content prioritization, truncation strategies — zero dependencies |
-| [**agent-mock**](https://github.com/darshjme/agent-mock) | Mock LLM clients, latency/error simulation, call recording — zero dependencies |
-| [**agent-plugin**](https://github.com/darshjme/agent-plugin) | Plugin system, HookSystem, PluginLoader, lifecycle management — zero dependencies |
-| [**agent-telemetry**](https://github.com/darshjme/agent-telemetry) | OTEL-compatible spans, Tracer, TraceCollector, @traced decorator — zero dependencies |
-| [**agent-workflow**](https://github.com/darshjme/agent-workflow) | DAG-based workflow orchestration — topological sort, parallel execution, cycle detection, fault isolation — zero dependencies |
-| [**agent-secrets**](https://github.com/darshjme/agent-secrets) | Vault-style secrets management — TTL rotation, versioning, EnvironmentSecrets, SecretAuditLog — zero dependencies |
-| [**agent-store**](https://github.com/darshjme/agent-store) | File-backed KV store for agent working memory — namespaces, TTL, StoreLock, StoreTransaction — zero dependencies |
-| [**agent-stream**](https://github.com/darshjme/agent-stream) | SSE parser, chunk accumulation, StreamProcessor, ChunkBuffer — streaming LLM responses — zero dependencies |
-| [**agent-benchmark**](https://github.com/darshjme/agent-benchmark) | Timed runs, p50/p95/p99, regression detection, @benchmark decorator — performance benchmarking — zero dependencies |
-| [**agent-router**](https://github.com/darshjme/agent-router) | Request routing, RegexRoute, KeywordRoute, fallback handlers, dispatch — zero dependencies |
+Most of my time now goes into **Mohini** — an autonomous agent OS I'm writing from scratch. Named after the enchantress form of Vishnu. She routes, remembers, guards, evaluates. 14 crates in Rust. She never sleeps.
 
 ---
 
-<p align="center">
-  <img src="./assets/projects.svg" alt="Projects" width="100%">
-</p>
+## The Arsenal — Six Ways Agents Fail in Production
 
-**[Mohini](https://github.com/darshjme/mohini)** — Full agentic runtime. Persistent memory, WASM-sandboxed skills, shadow spawning, self-healing orchestration. The whole stack in Rust.
+Six libraries. Zero external dependencies. Built from first principles.
 
-**[KnowAI ERP](https://github.com/darshjme/knowai-erp)** — AI-native enterprise platform. React 19, Next.js 15, PostgreSQL. Built for real operations, not demos.
+| Library | What it solves | Tests |
+|---------|---------------|-------|
+| [herald](https://github.com/darshjme/herald) | Semantic routing — dispatch to specialists, not generalists | ✓ |
+| [engram](https://github.com/darshjme/engram) | Memory — short-term context + episodic recall | ✓ |
+| [sentinel](https://github.com/darshjme/sentinel) | Guards — stop runaway ReAct loops before they cost you | ✓ |
+| [verdict](https://github.com/darshjme/verdict) | Evaluation — 3D scoring: task / reasoning / tool use | ✓ |
+| [agent-guardrails](https://github.com/darshjme/agent-guardrails) | Validation — schema, content safety, retry logic | ✓ |
+| [agent-observability](https://github.com/darshjme/agent-observability) | Tracing — latency, tokens, span lifecycle | ✓ |
 
-**[MyCryptoCoin](https://github.com/darshjme/mycryptocoin)** — Multi-chain crypto payment gateway. One API, every chain. TypeScript.
-
-**[WhatsApp 2FA](https://github.com/darshjme/whatsapp-2fa)** — Self-hosted OTP/2FA over WhatsApp. REST API, zero third-party dependency.
-
+→ [arsenal](https://github.com/darshjme/arsenal) — the full pipeline
 
 ---
 
@@ -86,24 +48,28 @@ The complete production agent pipeline — 37 zero-dependency Python libraries: 
 
 ```mermaid
 flowchart TD
-    I[💡 Idea] --> D{Domain?}
+    D[धर्म · Dharma\nWhat must be built?] --> V[विचार · Vichara\nThink from first principles]
+    V --> K[कर्म · Karma\nWrite the code. Ship the thing.]
+    K --> S[सेवा · Seva\nOpen-source it. Serve others.]
+    S --> L[लोक · Loka\nThe world builds on top]
+    L --> D
 
-    D -->|AI / Agents| A[Rust crate or Python lib]
-    D -->|Product / SaaS| B[Next.js + PostgreSQL]
-    D -->|Web3 / Crypto| C[TypeScript + multi-chain]
-
-    A --> A1[herald · engram · sentinel\nverdict · agent-guardrails\nagent-observability]
-    B --> B1[KnowAI ERP\nMyCryptoCoin\nWA2FA SaaS]
-    C --> C1[MyCryptoCoin\nNFT infrastructure]
-
-    A1 & B1 & C1 --> M[Mohini\nOrchestrates everything\n24/7 autonomous runtime]
-
-    M --> S[Ship → GitHub → X.com]
-
-    style I fill:#1f6feb,color:#fff
-    style M fill:#6e2020,color:#fff
-    style S fill:#1a4731,color:#fff
+    style D fill:#cc9933,color:#000
+    style V fill:#1a1a2e,color:#fff
+    style K fill:#0d1117,color:#fff
+    style S fill:#1a3320,color:#fff
+    style L fill:#1e3a5f,color:#fff
 ```
+
+---
+
+## Other Projects
+
+**[KnowAI ERP](https://github.com/darshjme/knowai-erp)** — AI-native enterprise platform. React 19, Next.js 15, PostgreSQL.
+
+**[MyCryptoCoin](https://github.com/darshjme/mycryptocoin)** — Multi-chain crypto payment gateway. One API, every chain.
+
+**[WA2FA SaaS](https://github.com/darshjme/wa2fa-saas)** — Self-hosted OTP/2FA over WhatsApp. Zero third-party dependency.
 
 ---
 
@@ -123,7 +89,6 @@ flowchart TD
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=000" />
   <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" />
 </p>
@@ -142,16 +107,16 @@ Ph.D. Business CS · Hons Business Computing (Greenwich) · Advanced Diploma IT 
 ---
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=darshjme&show_icons=true&bg_color=0d1117&title_color=58a6ff&text_color=e6edf3&icon_color=f78166&border_color=30363d&count_private=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=darshjme&layout=compact&bg_color=0d1117&title_color=58a6ff&text_color=e6edf3&border_color=30363d&langs_count=8" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=darshjme&show_icons=true&bg_color=0d1117&title_color=cc9933&text_color=e6edf3&icon_color=cc9933&border_color=30363d&count_private=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=darshjme&layout=compact&bg_color=0d1117&title_color=cc9933&text_color=e6edf3&border_color=30363d&langs_count=8" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=darshjme&theme=github-dark-blue&border=30363d&stroke=30363d&ring=58a6ff&fire=f78166&currStreakLabel=58a6ff&background=0d1117" />
+  <img src="https://streak-stats.demolab.com?user=darshjme&theme=github-dark-blue&border=30363d&stroke=30363d&ring=cc9933&fire=cc9933&currStreakLabel=cc9933&background=0d1117" />
 </p>
 
 ---
 
-<p align="center"><sub>India · Dubai · USA</sub></p>
+<p align="center"><sub>गुजरात · India · Dubai · USA</sub></p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:1a1a2e,100:0d1117&height=120&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0000,50:0d1117,100:0d1117&height=120&section=footer" width="100%" />
