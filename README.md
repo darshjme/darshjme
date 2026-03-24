@@ -32,6 +32,32 @@ Most of my time now goes into **Mohini** — an agent OS written from scratch in
 
 **[WhatsApp 2FA](https://github.com/darshjme/whatsapp-2fa)** — Self-hosted OTP/2FA over WhatsApp. REST API, zero third-party dependency.
 
+
+---
+
+## How I Build
+
+```mermaid
+flowchart TD
+    I[💡 Idea] --> D{Domain?}
+
+    D -->|AI / Agents| A[Rust crate or Python lib]
+    D -->|Product / SaaS| B[Next.js + PostgreSQL]
+    D -->|Web3 / Crypto| C[TypeScript + multi-chain]
+
+    A --> A1[herald · engram · sentinel\nverdict · agent-guardrails\nagent-observability]
+    B --> B1[KnowAI ERP\nMyCryptoCoin\nWA2FA SaaS]
+    C --> C1[MyCryptoCoin\nNFT infrastructure]
+
+    A1 & B1 & C1 --> M[Mohini\nOrchestrates everything\n24/7 autonomous runtime]
+
+    M --> S[Ship → GitHub → X.com]
+
+    style I fill:#1f6feb,color:#fff
+    style M fill:#6e2020,color:#fff
+    style S fill:#1a4731,color:#fff
+```
+
 ---
 
 | Company | Role | Since |
