@@ -22,9 +22,9 @@ Most of my time now goes into **Mohini** — an agent OS written from scratch in
 
 ## Production Agent Infrastructure
 
-[![Arsenal](https://img.shields.io/badge/Arsenal-37%20libs%201667%20tests-blue)](https://github.com/darshjme/arsenal) [![36 Libraries](https://img.shields.io/badge/🎯_1667_tests-37_lib_milestone-gold)](https://github.com/darshjme/arsenal)
+[![Arsenal](https://img.shields.io/badge/Arsenal-37%20libs%201667%20tests-blue)](https://github.com/darshjme/arsenal) [![37 Libraries](https://img.shields.io/badge/🎯_1667_tests-37_lib_milestone-gold)](https://github.com/darshjme/arsenal)
 
-The complete production agent pipeline — 36 zero-dependency Python libraries: [arsenal →](https://github.com/darshjme/arsenal)
+The complete production agent pipeline — 37 zero-dependency Python libraries: [arsenal →](https://github.com/darshjme/arsenal)
 
 | Library | Description |
 |---|---|
@@ -63,6 +63,7 @@ The complete production agent pipeline — 36 zero-dependency Python libraries: 
 | [**agent-store**](https://github.com/darshjme/agent-store) | File-backed KV store for agent working memory — namespaces, TTL, StoreLock, StoreTransaction — zero dependencies |
 | [**agent-stream**](https://github.com/darshjme/agent-stream) | SSE parser, chunk accumulation, StreamProcessor, ChunkBuffer — streaming LLM responses — zero dependencies |
 | [**agent-benchmark**](https://github.com/darshjme/agent-benchmark) | Timed runs, p50/p95/p99, regression detection, @benchmark decorator — performance benchmarking — zero dependencies |
+| [**agent-router**](https://github.com/darshjme/agent-router) | Request routing, RegexRoute, KeywordRoute, fallback handlers, dispatch — zero dependencies |
 
 ---
 
