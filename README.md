@@ -22,7 +22,7 @@ Most of my time now goes into **Mohini** — an agent OS written from scratch in
 
 ## Production Agent Infrastructure
 
-[![Arsenal](https://img.shields.io/badge/Arsenal-30%20libs%201341%20tests-blue)](https://github.com/darshjme/arsenal) [![30 Libraries](https://img.shields.io/badge/🎯_1341_tests-30_lib_milestone-gold)](https://github.com/darshjme/arsenal)
+[![Arsenal](https://img.shields.io/badge/Arsenal-31%20libs%201412%20tests-blue)](https://github.com/darshjme/arsenal) [![31 Libraries](https://img.shields.io/badge/🎯_1412_tests-31_lib_milestone-gold)](https://github.com/darshjme/arsenal)
 
 The complete production agent pipeline — 30 zero-dependency Python libraries: [arsenal →](https://github.com/darshjme/arsenal)
 
@@ -57,6 +57,7 @@ The complete production agent pipeline — 30 zero-dependency Python libraries: 
 | [**agent-context-window**](https://github.com/darshjme/agent-context-window) | Token counting, sliding window, content prioritization, truncation strategies — zero dependencies |
 | [**agent-mock**](https://github.com/darshjme/agent-mock) | Mock LLM clients, latency/error simulation, call recording — zero dependencies |
 | [**agent-plugin**](https://github.com/darshjme/agent-plugin) | Plugin system, HookSystem, PluginLoader, lifecycle management — zero dependencies |
+| [**agent-telemetry**](https://github.com/darshjme/agent-telemetry) | OTEL-compatible spans, Tracer, TraceCollector, @traced decorator — zero dependencies |
 
 ---
 
