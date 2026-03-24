@@ -22,9 +22,9 @@ Most of my time now goes into **Mohini** — an agent OS written from scratch in
 
 ## Production Agent Infrastructure
 
-[![Arsenal](https://img.shields.io/badge/Arsenal-32%20libs%201463%20tests-blue)](https://github.com/darshjme/arsenal) [![32 Libraries](https://img.shields.io/badge/🎯_1463_tests-32_lib_milestone-gold)](https://github.com/darshjme/arsenal)
+[![Arsenal](https://img.shields.io/badge/Arsenal-33%20libs%201514%20tests-blue)](https://github.com/darshjme/arsenal) [![33 Libraries](https://img.shields.io/badge/🎯_1514_tests-33_lib_milestone-gold)](https://github.com/darshjme/arsenal)
 
-The complete production agent pipeline — 32 zero-dependency Python libraries: [arsenal →](https://github.com/darshjme/arsenal)
+The complete production agent pipeline — 33 zero-dependency Python libraries: [arsenal →](https://github.com/darshjme/arsenal)
 
 | Library | Description |
 |---|---|
@@ -59,6 +59,7 @@ The complete production agent pipeline — 32 zero-dependency Python libraries: 
 | [**agent-plugin**](https://github.com/darshjme/agent-plugin) | Plugin system, HookSystem, PluginLoader, lifecycle management — zero dependencies |
 | [**agent-telemetry**](https://github.com/darshjme/agent-telemetry) | OTEL-compatible spans, Tracer, TraceCollector, @traced decorator — zero dependencies |
 | [**agent-workflow**](https://github.com/darshjme/agent-workflow) | DAG-based workflow orchestration — topological sort, parallel execution, cycle detection, fault isolation — zero dependencies |
+| [**agent-secrets**](https://github.com/darshjme/agent-secrets) | Vault-style secrets management — TTL rotation, versioning, EnvironmentSecrets, SecretAuditLog — zero dependencies |
 
 ---
 
