@@ -22,7 +22,7 @@ Most of my time now goes into **Mohini** — an agent OS written from scratch in
 
 ## Production Agent Infrastructure
 
-[![Arsenal](https://img.shields.io/badge/Arsenal-37%20libs%201667%20tests-blue)](https://github.com/darshjme/arsenal) [![37 Libraries](https://img.shields.io/badge/🎯_1667_tests-37_lib_milestone-gold)](https://github.com/darshjme/arsenal)
+[![Arsenal](https://img.shields.io/badge/Arsenal-38%20libs%201712%20tests-blue)](https://github.com/darshjme/arsenal) [![37 Libraries](https://img.shields.io/badge/🎯_1712_tests-38_lib_milestone-gold)](https://github.com/darshjme/arsenal)
 
 The complete production agent pipeline — 37 zero-dependency Python libraries: [arsenal →](https://github.com/darshjme/arsenal)
 
