@@ -22,9 +22,9 @@ Most of my time now goes into **Mohini** — an agent OS written from scratch in
 
 ## Production Agent Infrastructure
 
-[![Arsenal](https://img.shields.io/badge/Arsenal-22%20libs%20930%20tests-blue)](https://github.com/darshjme/arsenal)
+[![Arsenal](https://img.shields.io/badge/Arsenal-23%20libs%20992%20tests-blue)](https://github.com/darshjme/arsenal)
 
-The complete production agent pipeline — 22 zero-dependency Python libraries: [arsenal →](https://github.com/darshjme/arsenal)
+The complete production agent pipeline — 23 zero-dependency Python libraries: [arsenal →](https://github.com/darshjme/arsenal)
 
 | Library | Description |
 |---|---|
@@ -49,6 +49,7 @@ The complete production agent pipeline — 22 zero-dependency Python libraries: 
 | [**agent-circuit-breaker**](https://github.com/darshjme/agent-circuit-breaker) | Circuit breaker pattern — CLOSED/OPEN/HALF_OPEN state machine, FallbackBreaker for cascade failure prevention |
 | [**agent-validator**](https://github.com/darshjme/agent-validator) | Input validation, prompt injection detection, PII scanning — composable rule chains, zero dependencies |
 | [**agent-logger**](https://github.com/darshjme/agent-logger) | Structured JSON logging, correlation IDs, auto-redaction, log sampling — trace every request end-to-end |
+| [**agent-timer**](https://github.com/darshjme/agent-timer) | SLA enforcement, p50/p95/p99 tracking, @timed decorator, multi-step profiler — zero dependencies |
 
 ---
 
