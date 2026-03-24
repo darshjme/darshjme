@@ -20,6 +20,30 @@ Most of my time now goes into **Mohini** — an agent OS written from scratch in
 
 ---
 
+## Production Agent Infrastructure
+
+[![Arsenal](https://img.shields.io/badge/Arsenal-14%20libs%20534%20tests-blue)](https://github.com/darshjme/arsenal)
+
+The complete production agent pipeline — 14 zero-dependency Python libraries: [arsenal →](https://github.com/darshjme/arsenal)
+
+| Library | Description |
+|---|---|
+| [**agent-evals**](https://github.com/darshjme/agent-evals) | Evaluation framework for LLM agent outputs and behaviors |
+| [**react-guard-patterns**](https://github.com/darshjme/react-guard-patterns) | ReAct loop guard patterns to prevent runaway agent execution |
+| [**llm-router**](https://github.com/darshjme/llm-router) | Intelligent routing across LLM providers based on cost and capability |
+| [**agent-memory**](https://github.com/darshjme/agent-memory) | Persistent and working memory primitives for stateful agents |
+| [**agent-guardrails**](https://github.com/darshjme/agent-guardrails) | Input/output safety guardrails for production agent pipelines |
+| [**agent-observability**](https://github.com/darshjme/agent-observability) | Structured tracing, logging, and metrics for agent systems |
+| [**agent-budget**](https://github.com/darshjme/agent-budget) | Token and cost budgeting with hard limits and alerts |
+| [**agent-context**](https://github.com/darshjme/agent-context) | Context window management and intelligent compression |
+| [**agent-tools**](https://github.com/darshjme/agent-tools) | Tool registry, validation, and execution harness |
+| [**agent-retry**](https://github.com/darshjme/agent-retry) | Retry logic with exponential backoff and circuit breakers |
+| [**agent-state**](https://github.com/darshjme/agent-state) | Lightweight agent state machine with transition guards |
+| [**agent-schema**](https://github.com/darshjme/agent-schema) | Schema validation for structured LLM outputs |
+| [**agent-pipeline**](https://github.com/darshjme/agent-pipeline) | Composable pipeline orchestrator: Route→Budget→Guard→Remember→Compress→Observe→Evaluate→Validate→Retry→State→Schema |
+
+---
+
 <p align="center">
   <img src="./assets/projects.svg" alt="Projects" width="100%">
 </p>
