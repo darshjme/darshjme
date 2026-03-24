@@ -32,7 +32,7 @@ Most of my time now goes into **Mohini** — an autonomous agent OS I'm writing 
 <<<<<<< HEAD
 Six libraries. Zero external dependencies. Built from first principles.
 =======
-[![Arsenal](https://img.shields.io/badge/Arsenal-87%20libs%203661%20tests-blue)](https://github.com/darshjme/arsenal) [![86 Libraries](https://img.shields.io/badge/🎯_3661_tests-87_lib_milestone-gold)](https://github.com/darshjme/arsenal)
+[![Arsenal](https://img.shields.io/badge/Arsenal-88%20libs%203720%20tests-blue)](https://github.com/darshjme/arsenal) [![87 Libraries](https://img.shields.io/badge/🎯_3720_tests-88_lib_milestone-gold)](https://github.com/darshjme/arsenal)
 >>>>>>> cdc8e6c (docs: 55 libs, 2432 tests)
 
 | Library | What it solves | Tests |
