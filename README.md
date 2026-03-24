@@ -22,9 +22,9 @@ Most of my time now goes into **Mohini** — an agent OS written from scratch in
 
 ## Production Agent Infrastructure
 
-[![Arsenal](https://img.shields.io/badge/Arsenal-35%20libs%201603%20tests-blue)](https://github.com/darshjme/arsenal) [![35 Libraries](https://img.shields.io/badge/🎯_1603_tests-35_lib_milestone-gold)](https://github.com/darshjme/arsenal)
+[![Arsenal](https://img.shields.io/badge/Arsenal-36%20libs%201632%20tests-blue)](https://github.com/darshjme/arsenal) [![35 Libraries](https://img.shields.io/badge/🎯_1632_tests-36_lib_milestone-gold)](https://github.com/darshjme/arsenal)
 
-The complete production agent pipeline — 35 zero-dependency Python libraries: [arsenal →](https://github.com/darshjme/arsenal)
+The complete production agent pipeline — 36 zero-dependency Python libraries: [arsenal →](https://github.com/darshjme/arsenal)
 
 | Library | Description |
 |---|---|
@@ -62,6 +62,7 @@ The complete production agent pipeline — 35 zero-dependency Python libraries: 
 | [**agent-secrets**](https://github.com/darshjme/agent-secrets) | Vault-style secrets management — TTL rotation, versioning, EnvironmentSecrets, SecretAuditLog — zero dependencies |
 | [**agent-store**](https://github.com/darshjme/agent-store) | File-backed KV store for agent working memory — namespaces, TTL, StoreLock, StoreTransaction — zero dependencies |
 | [**agent-stream**](https://github.com/darshjme/agent-stream) | SSE parser, chunk accumulation, StreamProcessor, ChunkBuffer — streaming LLM responses — zero dependencies |
+| [**agent-benchmark**](https://github.com/darshjme/agent-benchmark) | Timed runs, p50/p95/p99, regression detection, @benchmark decorator — performance benchmarking — zero dependencies |
 
 ---
 
