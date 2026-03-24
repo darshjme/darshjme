@@ -27,13 +27,13 @@ Most of my time now goes into **Mohini** — an autonomous agent OS I'm writing 
 
 ---
 
-## The Arsenal — Six Ways Agents Fail in Production
+## 🏗️ Arsenal — 100 Production Libraries for LLM Agents
 
-<<<<<<< HEAD
-Six libraries. Zero external dependencies. Built from first principles.
-=======
-[![Arsenal](https://img.shields.io/badge/Arsenal-100%20libs%204375%20tests-blue)](https://github.com/darshjme/arsenal) [![99 Libraries](https://img.shields.io/badge/🎯_4375_tests-100_lib_milestone-gold)](https://github.com/darshjme/arsenal)
->>>>>>> cdc8e6c (docs: 55 libs, 2432 tests)
+[![100 Libraries](https://img.shields.io/badge/libraries-100-brightgreen.svg)](https://github.com/darshjme/arsenal) [![4375 Tests](https://img.shields.io/badge/tests-4375-brightgreen.svg)](https://github.com/darshjme/arsenal)
+
+100 zero-dependency Python libraries covering every LLM agent failure mode. Route → Budget → Guard → Checkpoint → Consensus → Saga → Telemetry → 4,375 tests.
+
+**→ [github.com/darshjme/arsenal](https://github.com/darshjme/arsenal)**
 
 | Library | What it solves | Tests |
 |---------|---------------|-------|
