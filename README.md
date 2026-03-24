@@ -22,9 +22,9 @@ Most of my time now goes into **Mohini** — an agent OS written from scratch in
 
 ## Production Agent Infrastructure
 
-[![Arsenal](https://img.shields.io/badge/Arsenal-29%20libs%201270%20tests-blue)](https://github.com/darshjme/arsenal) [![1000+ Tests](https://img.shields.io/badge/🎯_1270_tests-milestone-gold)](https://github.com/darshjme/arsenal)
+[![Arsenal](https://img.shields.io/badge/Arsenal-30%20libs%201341%20tests-blue)](https://github.com/darshjme/arsenal) [![30 Libraries](https://img.shields.io/badge/🎯_1341_tests-30_lib_milestone-gold)](https://github.com/darshjme/arsenal)
 
-The complete production agent pipeline — 29 zero-dependency Python libraries: [arsenal →](https://github.com/darshjme/arsenal)
+The complete production agent pipeline — 30 zero-dependency Python libraries: [arsenal →](https://github.com/darshjme/arsenal)
 
 | Library | Description |
 |---|---|
@@ -56,6 +56,7 @@ The complete production agent pipeline — 29 zero-dependency Python libraries: 
 | [**agent-dependency**](https://github.com/darshjme/agent-dependency) | DI container, @inject decorator, scoped containers, ServiceLocator — zero dependencies |
 | [**agent-context-window**](https://github.com/darshjme/agent-context-window) | Token counting, sliding window, content prioritization, truncation strategies — zero dependencies |
 | [**agent-mock**](https://github.com/darshjme/agent-mock) | Mock LLM clients, latency/error simulation, call recording — zero dependencies |
+| [**agent-plugin**](https://github.com/darshjme/agent-plugin) | Plugin system, HookSystem, PluginLoader, lifecycle management — zero dependencies |
 
 ---
 
