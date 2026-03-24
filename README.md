@@ -22,9 +22,9 @@ Most of my time now goes into **Mohini** — an agent OS written from scratch in
 
 ## Production Agent Infrastructure
 
-[![Arsenal](https://img.shields.io/badge/Arsenal-25%20libs%201087%20tests-blue)](https://github.com/darshjme/arsenal) [![1000+ Tests](https://img.shields.io/badge/🎯_1000%2B_tests-milestone-gold)](https://github.com/darshjme/arsenal)
+[![Arsenal](https://img.shields.io/badge/Arsenal-26%20libs%201124%20tests-blue)](https://github.com/darshjme/arsenal) [![1000+ Tests](https://img.shields.io/badge/🎯_1124_tests-milestone-gold)](https://github.com/darshjme/arsenal)
 
-The complete production agent pipeline — 24 zero-dependency Python libraries: [arsenal →](https://github.com/darshjme/arsenal)
+The complete production agent pipeline — 26 zero-dependency Python libraries: [arsenal →](https://github.com/darshjme/arsenal)
 
 | Library | Description |
 |---|---|
@@ -52,6 +52,7 @@ The complete production agent pipeline — 24 zero-dependency Python libraries: 
 | [**agent-timer**](https://github.com/darshjme/agent-timer) | SLA enforcement, p50/p95/p99 tracking, @timed decorator, multi-step profiler — zero dependencies |
 | [**agent-queue**](https://github.com/darshjme/agent-queue) | Priority task queue, deduplication, worker pool, backpressure — zero dependencies |
 | [**agent-fallback**](https://github.com/darshjme/agent-fallback) | FallbackChain, ConditionalFallback, RetryThenFallback, @fallback decorator — zero dependencies |
+| [**agent-semaphore**](https://github.com/darshjme/agent-semaphore) | Concurrency limiting, resource pool, throttled executor, @limit_concurrent — zero dependencies |
 
 ---
 
