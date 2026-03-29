@@ -41,8 +41,8 @@ Most of my time now goes into **Mohini** — an autonomous agent OS I'm writing 
 | [engram](https://github.com/darshjme/engram) | Memory — short-term context + episodic recall | ✓ |
 | [sentinel](https://github.com/darshjme/sentinel) | Guards — stop runaway ReAct loops before they cost you | ✓ |
 | [verdict](https://github.com/darshjme/verdict) | Evaluation — 3D scoring: task / reasoning / tool use | ✓ |
-| [agent-guardrails](https://github.com/darshjme/agent-guardrails) | Validation — schema, content safety, retry logic | ✓ |
-| [agent-observability](https://github.com/darshjme/agent-observability) | Tracing — latency, tokens, span lifecycle | ✓ |
+| [seema](https://github.com/darshjme/seema) | Guardrails — schema validation, content safety, retry logic | ✓ |
+| [drashta](https://github.com/darshjme/drashta) | Observability — structured logging, tracing, metrics | ✓ |
 
 → [arsenal](https://github.com/darshjme/arsenal) — the full pipeline
 
