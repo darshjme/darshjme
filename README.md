@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a0a0a,100:1a0000&height=200&section=header&text=Darshankumar%20Joshi&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=कर्मण्येवाधिकारस्ते%20मा%20फलेषु%20कदाचन&descAlignY=58&descSize=16&descColor=cc9933" width="100%" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=800&color=CC9933&center=true&vCenter=true&width=750&lines=Vipra+who+writes+code.+Brahmin+who+builds+systems.;Gujarat+%E2%86%92+the+world.+Dharma+%E2%86%92+execution.;Karman%CC%A3y-ev%C4%81dhik%C4%81ras+te+m%C4%81+phales%CC%A3u+kad%C4%81cana.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=800&color=CC9933&center=true&vCenter=true&width=750&lines=Creator+of+DarshanDB+%E2%80%94+the+open-source+BaaS+built+in+Rust;Vipra+who+writes+code.+Brahmin+who+builds+systems.;Gujarat+%E2%86%92+the+world.+Dharma+%E2%86%92+execution.)](https://git.io/typing-svg)
 
 <a href="https://darshj.me"><img src="https://img.shields.io/badge/darshj.me-cc9933?style=flat-square&logoColor=000" /></a>
 <a href="https://twitter.com/thedarshanjoshi"><img src="https://img.shields.io/badge/@thedarshanjoshi-e6edf3?style=flat-square&logo=x&logoColor=000" /></a>
@@ -12,7 +12,7 @@
 
 ---
 
-> *"Śreyān sva-dharmo viguṇaḥ para-dharmāt su-anuṣṭhitāt"*
+> *"Sreyaan sva-dharmo vigunah para-dharmaat su-anushthitaat"*
 > Better to walk your own path imperfectly than another's path perfectly. — Bhagavad Gita 3.35
 
 I am a Brahmin from Gujarat. My ancestors built temples. I build systems.
@@ -23,28 +23,54 @@ Vyasa compiled the Vedas so knowledge wouldn't scatter. I write open-source so t
 
 Founded my first company in 2015. Currently running three across AI, media, and enterprise — Coeus Digital Media, Graymatter International, and KnowAI. Before this: VFX for Aquaman, The Invisible Man, The Last of Us Part II. India's first NFT-funded film. Ph.D. Business CS. CCNA. MCSE. CEH.
 
-Most of my time now goes into **Mohini** — an autonomous agent OS I'm writing from scratch. Named after the enchantress form of Vishnu. She routes, remembers, guards, evaluates. 14 crates in Rust. She never sleeps.
-
 ---
 
-## 🏗️ Arsenal — 100 Production Libraries for LLM Agents
+## DarshanDB — The Self-Hosted Backend-as-a-Service
 
-[![100 Libraries](https://img.shields.io/badge/libraries-100-brightgreen.svg)](https://github.com/darshjme/arsenal) [![4375 Tests](https://img.shields.io/badge/tests-4375-brightgreen.svg)](https://github.com/darshjme/arsenal)
+<a href="https://github.com/darshjme/darshandb">
+  <img src="https://img.shields.io/badge/DarshanDB-F59E0B?style=for-the-badge&logo=rust&logoColor=000" />
+</a>
 
-100 zero-dependency Python libraries covering every LLM agent failure mode. Route → Budget → Guard → Checkpoint → Consensus → Saga → Telemetry → 4,375 tests.
+**One binary. Every framework. Zero loopholes.** Built from scratch in Rust.
 
-**→ [github.com/darshjme/arsenal](https://github.com/darshjme/arsenal)**
+I got tired of spending three weeks on backend plumbing before writing business logic. Firebase is NoSQL spaghetti. Supabase is REST with real-time bolted on. InstantDB is cloud-only. Convex is a black box. So I built what I actually wanted.
 
-| Library | What it solves | Tests |
-|---------|---------------|-------|
-| [herald](https://github.com/darshjme/herald) | Semantic routing — dispatch to specialists, not generalists | ✓ |
-| [engram](https://github.com/darshjme/engram) | Memory — short-term context + episodic recall | ✓ |
-| [sentinel](https://github.com/darshjme/sentinel) | Guards — stop runaway ReAct loops before they cost you | ✓ |
-| [verdict](https://github.com/darshjme/verdict) | Evaluation — 3D scoring: task / reasoning / tool use | ✓ |
-| [seema](https://github.com/darshjme/seema) | Guardrails — schema validation, content safety, retry logic | ✓ |
-| [drashta](https://github.com/darshjme/drashta) | Observability — structured logging, tracing, metrics | ✓ |
+```mermaid
+graph LR
+    subgraph DarshanDB["DarshanDB — What's Inside"]
+        TS["Triple Store<br/><i>EAV over Postgres</i>"]
+        QE["Query Engine<br/><i>DarshanQL</i>"]
+        RT["Real-Time Sync<br/><i>WebSocket + MsgPack</i>"]
+        AU["Auth Engine<br/><i>JWT + OAuth + MFA</i>"]
+        FN["Function Runtime<br/><i>V8 Sandboxed</i>"]
+        PM["Permissions<br/><i>Zero-Trust RLS</i>"]
+        ST["Storage<br/><i>S3-compatible</i>"]
+    end
 
-→ [arsenal](https://github.com/darshjme/arsenal) — the full pipeline
+    subgraph SDKs["SDKs"]
+        React["React"]
+        Next["Next.js"]
+        Angular["Angular"]
+        Vue["Vue"]
+        PHP["PHP"]
+        Python["Python"]
+    end
+
+    DarshanDB --> SDKs
+
+    style DarshanDB fill:#1a1a2e,stroke:#F59E0B,color:#fff
+    style SDKs fill:#0f3460,stroke:#F59E0B,color:#fff
+```
+
+| What | Details |
+|------|---------|
+| **Core** | Rust (Axum + Tokio), PostgreSQL 16+ with pgvector |
+| **Protocol** | MsgPack over WebSocket — 206x faster than REST polling |
+| **Security** | 11-layer defense-in-depth, OWASP Top 10 eliminated |
+| **SDKs** | React, Next.js, Angular, Vue, Svelte, PHP, Python, Vanilla JS |
+| **Deploy** | Single ~30MB binary, Docker, or Kubernetes Helm chart |
+
+**[github.com/darshjme/darshandb](https://github.com/darshjme/darshandb)**
 
 ---
 
@@ -52,10 +78,10 @@ Most of my time now goes into **Mohini** — an autonomous agent OS I'm writing 
 
 ```mermaid
 flowchart TD
-    D[धर्म · Dharma\nWhat must be built?] --> V[विचार · Vichara\nThink from first principles]
-    V --> K[कर्म · Karma\nWrite the code. Ship the thing.]
-    K --> S[सेवा · Seva\nOpen-source it. Serve others.]
-    S --> L[लोक · Loka\nThe world builds on top]
+    D[Dharma\nWhat must be built?] --> V[Vichara\nThink from first principles]
+    V --> K[Karma\nWrite the code. Ship the thing.]
+    K --> S[Seva\nOpen-source it. Serve others.]
+    S --> L[Loka\nThe world builds on top]
     L --> D
 
     style D fill:#cc9933,color:#000
@@ -67,13 +93,11 @@ flowchart TD
 
 ---
 
-## Other Projects
+## Other Work
 
-**[KnowAI ERP](https://github.com/darshjme/knowai-erp)** — AI-native enterprise platform. React 19, Next.js 15, PostgreSQL.
+**Mohini** — An autonomous agent OS written from scratch in Rust. 14 crates. Named after the enchantress form of Vishnu. She routes, remembers, guards, evaluates. She never sleeps.
 
-**[MyCryptoCoin](https://github.com/darshjme/mycryptocoin)** — Multi-chain crypto payment gateway. One API, every chain.
-
-**[WA2FA SaaS](https://github.com/darshjme/wa2fa-saas)** — Self-hosted OTP/2FA over WhatsApp. Zero third-party dependency.
+**KnowAI** — AI-native enterprise platform. React 19, Next.js 15, PostgreSQL. 60+ autonomous agents managing Slack, ClickUp, Miro, and hiring.
 
 ---
 
@@ -97,7 +121,7 @@ flowchart TD
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" />
 </p>
 
-Ph.D. Business CS · Hons Business Computing (Greenwich) · Advanced Diploma IT (Sunderland) · CCNA · MCSE · CEH
+Ph.D. Business CS | Hons Business Computing (Greenwich) | Advanced Diploma IT (Sunderland) | CCNA | MCSE | CEH
 
 ---
 
@@ -121,6 +145,6 @@ Ph.D. Business CS · Hons Business Computing (Greenwich) · Advanced Diploma IT 
 
 ---
 
-<p align="center"><sub>गुजरात · India · Dubai · USA</sub></p>
+<p align="center"><sub>Gujarat | India | Dubai | USA</sub></p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0000,50:0d1117,100:0d1117&height=120&section=footer" width="100%" />
