@@ -17,7 +17,7 @@
 > *"Sreyaan sva-dharmo vigunah para-dharmaat su-anushthitaat"*
 > Better to walk your own path imperfectly than another's path perfectly. — Bhagavad Gita 3.35
 
-I grew up in Navsari, a small town in southern Gujarat where Parsi fire temples stand next to Hindu mandirs and the chai tastes like monsoon rain. My grandfather would say *"darshan karo"* every morning — see clearly. That word followed me across three countries and became the name of what I'm building now.
+I grew up in Navsari, a small town in southern Gujarat where Parsi fire temples stand next to Hindu mandirs and the chai tastes like monsoon rain. My father would say *"darshan karo"* every morning — see clearly. That word followed me across three countries and became the name of what I'm building now.
 
 London for studies — Business Computing at Greenwich, Advanced Diploma at Sunderland. Dubai for production — VFX pipelines for Aquaman, The Invisible Man, The Last of Us Part II. Back to India, Ahmedabad, to build companies: GraymatterOnline (2015), Graymatter International (2018), Coeus Digital Media (2020), KnowAI (2024).
 
